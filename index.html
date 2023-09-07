@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS-FLEX-GUIDE</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>List Without Flexbox</h1>
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                "display: flex;"
+            </span>
+        </h1>
+        <ul class="flex-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                "display: flex;"
+                <br>
+                justify-content: center;
+            </span>
+        </h1>
+        <ul class="center-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                "display: flex;"
+                <br>
+                justify-content: flex-end;
+            </span>
+        </h1>
+        <ul class="end-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                display: flex;
+                <br>
+                justify-content: space-around;
+                <br>
+                (Distributres space evenly while the
+                start and end gaps are half the
+                size of normal gaps)
+            </span>
+        </h1>
+        <ul class="space-around-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                display: flex;
+                <br>
+                justify-content: space-evenly;
+                <br>
+                (Distributres space evenly,
+                all gaps are the same size)
+            </span>
+        </h1>
+        <ul class="space-evenly-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div>
+        <h1>List With: <br>
+            <span>
+                display: flex;
+                <br>
+                justify-content: space-between;
+                <br>
+                (Distributres space evenly,
+                without start or end gaps)
+            </span>
+        </h1>
+        <ul class="space-between-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Find</li>
+            <li>Help</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+</body>
+</html>

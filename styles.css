@@ -1,0 +1,58 @@
+
+
+
+h1 {
+    text-align: center;
+}
+
+
+ul, ul > * {
+    margin: 0;
+    padding: 0;
+}
+
+
+ul {
+    list-style-type: none;
+    border: 8px solid red;
+}
+
+
+ul > * {
+    font-size: 2rem;
+    border: 4px solid green;
+    list-style-type: none;
+}
+
+.flex-ul {
+    display: flex;
+}
+
+span {
+    color: blue;
+}
+
+.center-ul {
+    display: flex;
+    justify-content: center;
+}
+
+.end-ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.space-around-ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.space-evenly-ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.space-between-ul {
+    display: flex;
+    justify-content: space-between;
+}
