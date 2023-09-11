@@ -24,33 +24,40 @@ ul > * {
     list-style-type: none;
 }
 
+
 .flex-ul {
     display: flex;
 }
 
+
 span {
     color: blue;
 }
+
 
 .center-ul {
     display: flex;
     justify-content: center;
 }
 
+
 .end-ul {
     display: flex;
     justify-content: flex-end;
 }
+
 
 .space-around-ul {
     display: flex;
     justify-content: space-around;
 }
 
+
 .space-evenly-ul {
     display: flex;
     justify-content: space-evenly;
 }
+
 
 .space-between-ul {
     display: flex;
